@@ -15,7 +15,10 @@
 
 		private string Convert(int score)
 		{
-			return score.ToString().Replace("0", "Love");
+			if (score == 0)
+				return score.ToString().Replace("0", "Love");
+			
+			return score.ToString();
 		}
 
 		private string Add(string score1, string score2)
