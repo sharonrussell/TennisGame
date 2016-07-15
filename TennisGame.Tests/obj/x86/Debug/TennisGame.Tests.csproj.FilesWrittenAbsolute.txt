@@ -1,0 +1,8 @@
+/Users/sharonrussell/Coding/c#/TennisGame/TennisGame.Tests/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/sharonrussell/Coding/c#/TennisGame/TennisGame.Tests/bin/Debug/TennisGame.Tests.dll.mdb
+/Users/sharonrussell/Coding/c#/TennisGame/TennisGame.Tests/bin/Debug/TennisGame.Tests.dll
+/Users/sharonrussell/Coding/c#/TennisGame/TennisGame.Tests/obj/x86/Debug/TennisGame.Tests.dll
+/Users/sharonrussell/Coding/c#/TennisGame/TennisGame.Tests/obj/x86/Debug/TennisGame.Tests.dll.mdb
+/Users/sharonrussell/Coding/c#/TennisGame/TennisGame.Tests/bin/Debug/nunit.framework.dll
+/Users/sharonrussell/Coding/c#/TennisGame/TennisGame.Tests/bin/Debug/TennisGame.dll
+/Users/sharonrussell/Coding/c#/TennisGame/TennisGame.Tests/bin/Debug/TennisGame.dll.mdb

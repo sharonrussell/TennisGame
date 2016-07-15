@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TennisGame", "TennisGame\TennisGame.csproj", "{7E06876A-1248-4F61-8374-6A8525AACC17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TennisGame.Tests", "TennisGame.Tests\TennisGame.Tests.csproj", "{C1118DAF-ACD0-4119-ADAF-C087AB62FDCD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E06876A-1248-4F61-8374-6A8525AACC17}.Debug|x86.ActiveCfg = Debug|x86
+		{7E06876A-1248-4F61-8374-6A8525AACC17}.Debug|x86.Build.0 = Debug|x86
+		{7E06876A-1248-4F61-8374-6A8525AACC17}.Release|x86.ActiveCfg = Release|x86
+		{7E06876A-1248-4F61-8374-6A8525AACC17}.Release|x86.Build.0 = Release|x86
+		{C1118DAF-ACD0-4119-ADAF-C087AB62FDCD}.Debug|x86.ActiveCfg = Debug|x86
+		{C1118DAF-ACD0-4119-ADAF-C087AB62FDCD}.Debug|x86.Build.0 = Debug|x86
+		{C1118DAF-ACD0-4119-ADAF-C087AB62FDCD}.Release|x86.ActiveCfg = Release|x86
+		{C1118DAF-ACD0-4119-ADAF-C087AB62FDCD}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal
