@@ -6,24 +6,30 @@
 			return IsDeuce(Add(Convert(score1), Convert(score2)));
 		}
 
-		private string IsDeuce(string score){
+		string IsDeuce(string score)
+		{
 			if (score.Equals("40-40"))
 				return "Deuce";
 
 			return score;
 		}
 
-		private string Convert(int score)
+		string Convert(int score)
 		{
 			if (score == 0)
-				return score.ToString().Replace("0", "Love");
-			
+				return ReplaceZero(score);
+
 			return score.ToString();
 		}
 
-		private string Add(string score1, string score2)
+		string ReplaceZero(int score)
 		{
-			return score1 + "-" + score2;
+			return score.ToString().Replace("0", "Love");
+		}
+
+		string Add(string score1, string score2)
+		{
+			return $"{score1}-{score2}";
 		}
 	}
 }
