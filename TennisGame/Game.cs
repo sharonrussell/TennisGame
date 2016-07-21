@@ -1,35 +1,19 @@
-﻿namespace TennisGame
+﻿using System.Collections.Generic;
+
+namespace TennisGame
 {
 	public class Game
 	{
+		Dictionary<int, string> scores = new Dictionary<int, string>{
+			{0, "Love"},
+			{15, "15"},
+			{30, "30"},
+			{40, "40"}
+		};
+
 		public string Score(int score1, int score2){
-			return IsDeuce(Add(Convert(score1), Convert(score2)));
-		}
-
-		string IsDeuce(string score)
-		{
-			if (score.Equals("40-40"))
-				return "Deuce";
-
-			return score;
-		}
-
-		string Convert(int score)
-		{
-			if (score == 0)
-				return ReplaceZero(score);
-
-			return score.ToString();
-		}
-
-		string ReplaceZero(int score)
-		{
-			return score.ToString().Replace("0", "Love");
-		}
-
-		string Add(string score1, string score2)
-		{
-			return $"{score1}-{score2}";
+			var score = $"{scores[score1]}-{scores[score2]}";
+			return score.Replace("40-40", "Deuce");
 		}
 	}
 }
